@@ -1,0 +1,39 @@
+---
+title: "ch1_climate_change"
+output:  
+  md_document:
+    toc: true
+    variant: markdown_github
+bibliography: ../refs/references.bib
+csl: ../refs/ecology.csl
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup, echo=FALSE}
+show_text <- FALSE
+```
+
+
+# Clima en SN 
+
+
+Notas para cambio en el clima en montañas: 
+* Ver datos de Nogués-Bravo et al. 2008 
+
+
+
+
+
+
+```{r echo=FALSE, results='asis', eval=show_text}
+cat(" 
+
+")
+```
+
+
+
+
