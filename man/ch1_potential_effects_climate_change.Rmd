@@ -16,6 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 show_text <- FALSE
 ```
 
+Notas para cambio en el clima en montañas: 
+* Ver datos de Nogués-Bravo et al. 2008 
+
+
 # Efectos potenciales del cambio climático en los robledales 
 
 
@@ -123,5 +127,12 @@ cat("
 ")
 ```
 
+
+# Efectos del cambio climático en otras variables de esta especie: 
+
+* Por ejemplo en radial growth, ver los trabajos de: Predicting climate change impacts on native and invasive tree
+species using radial growth and twenty-first century climate scenarios; y también los de Guillermo y Laura Fernández de Uña y similares. 
+
+* Lo de Leverkus y el fuego 
 
 
