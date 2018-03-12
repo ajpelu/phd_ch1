@@ -1,0 +1,127 @@
+---
+title: "ch1_potential_effects_climate_change"
+output:  
+  md_document:
+    toc: true
+    variant: markdown_github
+bibliography: ../refs/references.bib
+csl: ../refs/ecology.csl
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup, echo=FALSE}
+show_text <- FALSE
+```
+
+# Efectos potenciales del cambio climático en los robledales 
+
+
+
+Los potenciales cambios en el rango de distribución de esta especie han sido simulados a diferentes escales espacio-temorales: 
+* toda la Península Ibérica [@BenitoGarzon2008]: Los resultados de las simulaciones muestran una notable reducción de la distribución potencial de Q. pyrenaica. 
+
+A escala mas regional, existen varios trabajos, realizados a lo largo de su distribució latiudinal. 
+
+* En la parte central de su distribución [@RuizLabourdette2012] ha visto que Q. pyrenaica ocupa las zonas bajas de las areas montañosas, y ha encontrado una reducción de hasta el 70% en su área de distribución, con un ascenso promedio de entre 80 y 100 m. 
+
+En la parte sur: Benito el al. 2018 
+
+
+
+
+Por otro lado, en el Sistema Iberico se está viendo una reducción en su rango de distribución lo cual puede emperorar debido al incremento en la reducción y en la recurrencia de las sequías [@RuizLabourdette2012]. 
+
+
+
+
+```{r echo=FALSE, results='asis', eval=show_text}
+cat(" 
+[BenitoGarzon2008]: 
+
+Effects of climate change on the distribution of Iberian tree species 
+* Estudia el impacto del cc en la distribución de 20 especies 
+* Simulan la distribución de 20 especies arbóreas para la P.Iberica bajo cuatro escenarios diferentes: A1, A2, B1 y B2; para cuatro momentos temporales 2020, 2050 y 2080.  
+* Como mapa de dist. actual utiliza el mapa de vegetacion forestal y lo rasteriza a 1 km2. 
+* Utilizan Random Forest como método de modelado 
+* Using the habitat predictions for each species, the maintenance, expansion or reduction of their ranges with respect to their current potential distributions was quantified for each scenario.
+
+Los resultados de las simulaciones muestran una notable reducción de la distribución potencial de Q. pyrenaica. 
+
+")
+```
+
+
+Con el cambio climático se espera un proceso de aridificación, que llevará consigo una disminución drástica en el rango de distribución del roble en aquellos lugares donde esta especie ocupa las zonas bajas. como por ejemplo el sistema Central []
+
+* Como resultado del proceso de aridificación proyectado, los modelos predicen una disminución drástica en los rangos de distribución de especies, como por ejemplo, para Q. pyrenaica en el sistema Central
+
+
+
+
+
+## Escala de Sierra Nevada 
+Las simulaciones de cambio de idoneidad de hábitat para los robledales no son muy optimistas. 
+
+[@Benito2011] analizaron tendencias en la idoneidad del hábitat para cuatro formaciones vegetales en Sierra Nevada, incluyendo los robledales. Utilizando la aproximación de los modelos de distribución de especies, analizaron la idoneidad del hábitat para los robledales en el presente y en el futuro, usando datos climáticos de alta resolución y simulaciones climáticas realizadas con diferentes escenarios climáticos. Sus resultados indican en el caso de *Q. pyrenaica* que, para el 65% de los registros de presencia actual de esta especie, los valores de idoneidad del hábitat para albergar a esta especie son inferiores a los actuales, suponiendo una pérdida de hábitat idóneo. En un análisis del patrón de reemplazamiento entre 2005-2055, estos autores encontraron que las áreas ocupadas actualmente por el roble serán mas idóneas para la encina (*Q. ilex*). 
+
+Aunque estas simulaciones no han de interpretarse como predicciones de las distribuciones futuras [@Benito2011], sus resultados ofrecen una visión general de los potenciales efectos del cambio climático en los robledales de Sierra Nevada.
+
+
+... decir algo del reemplazo con enebrales (en altitud)
+
+
+
+```{r echo=FALSE, results='asis', eval=show_text}
+cat(" 
+[@Benito2011]: 
+
+* Identifican tendencias en la idoneidad de hábitat de cuatro tipos de vegetación para Sierra Nevada. Para ello utilizan variables topográficas a una alta resolución espacial, y simulaciones de cambio climático de alta resolución. 
+
+* Utilizan la aproximación de SDM para ver cambios espaciales en la disponibilidad de hábitat óptimo. 
+* 4 escenarios climáticos ECHAM4-A2; ECHAM4-B2, CGCM2-A2, CGCM-B2. IPCC SRES scenarios (A2, B2): 2 de las 4 storylines de escenarios industriales para el futuro. AOGCMs: modelos de circulacion atmosférica y oceánica global. ECHAM4 y CGCM2) 
+* temp: 43 estaciones climáticas 50 km alrededor de SN (hasta 2860 m) --> mapas de tmean annual utilizando la approximacion de Ninyerola. 
+* no se incluyeron datos de precip porque no es posible construir modelos fiables para SN. 
+
+
+* El modelo de circulación global ECHAM4 simula el incremento de temperatura mas severo (+7 A2; +5.6 B2). Las simulaciones basadas en CGCM2 ofrecen un incremento de +4.4 (A2) y +2.3 (B2). En promedio los 4 escenarios, dan un incremento de +4.8 ºC a final de siglo. 
+* auc modelos: 0.963 para Q. pyrenaica. 
+* 65 % de los registros de presencia de Q. pyrenaica se localizan en zonas con un diferencial de idoneidad negativo, esto es, están en zonas donde la diferencia entre la idoneidad de habitat en el futuro y en el presente es negativa 
+* El análisis del posible patrón de reemplazamiento, indica que las áreas ocupadas actualmente por el roble serán idóneas para la encina (Q. ilex). Asimismo, las áreas actualmente idóneas para los matorrales de alta montaña, serán idóneas para los robledales 
+
+Los autores comentan asismimo las limitaciones de sus simulaciones e indican que no pueden interpretarse como predicciones de distribuciones futuras. Aunque sus conclusiones ofrecen una respuesta general sobre los potenciales efectos del cambio climático en estos tipos de vegetación en SN 
+
+")
+```
+
+
+
+
+```{r echo=FALSE, results='asis', eval=show_text}
+cat(" 
+[@RuizLabourdette2012]
+* We modelled the current and potential distributions of 15 species of trees in mountain ranges of the Iberian Peninsula as functions of climate, lithology and the availability of water in the soil using generalized linear models and data mining models. 
+
+* Using a multivariate ordination of a matrix of presence/absence of tree species that was obtained for two scenarios of the IPCC Special Report on Emissions Scenarios (SRES), namely A2 and B2 (Nakicenovic & Swart, 2000), for the periods of 2041–70 and 2071–2100, we mapped the principal trends of variation in the composition of current and likely future forest communities within the study area.
+
+* Central Mountain Range and Iberian Mountain Range. En las partes bajas se localiza el Q. pyrenaica 
+
+* We collected data from a forest map of Spain at a scale of 1:50,000 (Spanish Ministry of the Environment, 2002). We rasterized the map to a 500 x 500 m
+
+
+
+* Resultados: q. pyrenaica: una reducción de hasta el -52% del área de distribución actual promedio de los dos escenarios, para 2041-2070; y de -64 % para el periodo 2071-2011. 
+* A baja y media altitud de esas montañas se espera un declive en el área de distribución de especies como el Q. pyrenaica. 
+
+* As a result of this process of aridification, our models predicted a sharp decrease in the geographical ranges of species such as Q. pyrenaica
+
+* Como resultado del proceso de aridificación proyectado, los modelos predicen una disminución drástica en los rangos de distribución de especies, como por ejemplo, para Q. pyrenaica en el sistema Central
+
+* A decline in range might already have begun in the oak forests of Q. pyrenaica in the centre of the Iberian Peninsula, and it is likely that these forests will experience a sharp reduction in range as a result of the increased duration and recurrence of droughts that are predicted (Hernández-Santana et al., 2008).
+")
+```
+
+
+
