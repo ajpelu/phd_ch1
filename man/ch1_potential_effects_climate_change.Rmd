@@ -25,13 +25,18 @@ Notas para cambio en el clima en montañas:
 
 
 Los potenciales cambios en el rango de distribución de esta especie han sido simulados a diferentes escales espacio-temorales: 
+
 * toda la Península Ibérica [@BenitoGarzon2008]: Los resultados de las simulaciones muestran una notable reducción de la distribución potencial de Q. pyrenaica. 
 
 A escala mas regional, existen varios trabajos, realizados a lo largo de su distribució latiudinal. 
 
 * En la parte central de su distribución [@RuizLabourdette2012] ha visto que Q. pyrenaica ocupa las zonas bajas de las areas montañosas, y ha encontrado una reducción de hasta el 70% en su área de distribución, con un ascenso promedio de entre 80 y 100 m. 
 
-En la parte sur: Benito el al. 2018 
+En la parte sur: 
+* A nivel de toda Anadalucía, se predice una disminuición de la distribución potencial de Q. pyrenaica, y una migración altitudinal hacia zonas mas idóneas [@LopezTirado2016]
+
+* En un estudio concreto en las montañas de SN (ver Benito et al. 2011)
+
 
 
 
@@ -62,6 +67,25 @@ Con el cambio climático se espera un proceso de aridificación, que llevará co
 
 * Como resultado del proceso de aridificación proyectado, los modelos predicen una disminución drástica en los rangos de distribución de especies, como por ejemplo, para Q. pyrenaica en el sistema Central
 
+
+```{r echo=FALSE, results='asis', eval=show_text}
+cat(" 
+[@LopezTirado2016]
+* high-resolution (200 m) potential distribution map for five oak species in the south of Spain
+* forecast the species suitability areas throughout the twenty-first century in order to evaluate the effects of global change on species bioclimatic range dynamic.
+
+* model CNCM3 was used in an A1b scenario
+* 1961–2000 (current period), 2011–2040 (early twenty-first century), 2041–2070 (middle twenty-first century) and 2071–2100. 
+* Para Q. pyrenaica se dice que: 
+		* However, an upslope migration of the treeline in the Baetic range is possible.
+		* The results in our study area are thus consistent with theirs since Pyrenean oak could also grow higher and occupy part of the potential distribution of Scots pine in Sierra Nevada National Park (Lo´pez-Tirado and Hidalgo 2014).
+
+Se predice una disminuición de la distribución potencial de Q. pyrenaica, y una migración altitudinal hacia zonas mas idóneas [@LopezTirado2016]
+
+
+
+")
+```
 
 
 
