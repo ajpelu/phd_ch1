@@ -25,7 +25,115 @@ Notas para cambio en el clima en montañas:
 
 
 
+# Notas sobre sequía. `TODO` Ordenar 
 
+
+definir de forma genérica las sequías
+Las sequías son un fenómeno ... 
+
+Following Mishra and Singh (2010) drought can be classified as meteorological, agricultural, hydrological, ground-water and socio-economic. ---> Mirar 
+
+... hablar de que es algo típico en el mediterráneo, pero que en los últimos años está ocurriendo un aumento debido al cambio climático ... 
+
+... aquí revisamos un poco el estado del arte (estudios )
+
+Varios estudios, utilizando diferentes fuentes de datos e índices de sequía, han puesto de manifiesto la existencia de un incremento en la frecuencia de las sequías [@Lloyd2002; @Sousa2011; @VicenteSerrano2014; @Coll2016]. Durante el siglo XX se ha observado una tendencia hacia condiciones mas sécas en Europa [@Linolello2012; @Spinoni2015], siendo el incremento de la frecuencia de las sequías particularmente importante para la región Mediterránea [@Hoerling2012]. En la Penísula Ibérica, además se ha observado un aumento en la severidad de las sequías [@VicenteSerrano2014; @Pascoa2017], especialmente en la zona sur donde 
+
+These agree with the findings of Greve et al. [38] that identified the Southwest of the IP as one hot spot of the pattern “dry gets drier.”
+conviertiendo a la zona sur de Europa en un *hotspot* del cambio climático [@Greve2014]. 
+
+
+Severe and long drought events are frequent in the IP, with strong effects in ecosystems and the related social and economic impacts [10, 18]. 
+
+
+
+
+... y luego aquí hablamos de Sierra Nevada en cuestión (con datos que analicemos) 
+
+# CRU 
+El conjunto de datos CRU procede de cientos de estaciones dispersas de forma no aleatoria a lo largo de la tierra, con mayor cantidad de estaciones en latitudes medias que en las zonas tropicales o en el Ártico. 
+
+Algunos autores [Harris et al] han comprobado una alta correlación de las series de datos CRU para precipitación y temperatura con otros conjuntos de datos climáticos. 
+
+Este conjunto de datos con resolución 0.5 x 0.5 º se ha recomendado que es útil para diferentes aplicaciones climáticas: modelado hidrológico, escenarios de cambio climático y evaluación de modelos regionales [@Mitchell2005]. 
+
+
+
+
+En la PI se han detectado los siguientes patrones: 
+1940's, 1950's y desde 1980's los eventos de sequía mas largos y severos. 
+1960's y 1970's fueron predominantemente húmedos 
+
+Además en estas decadas la mayor parte del área de la PI estaba con valores de sequía moderados (spei < -)
+
+
+
+
+
+
+
+
+
+Se ha identificado una clara tendencia hacia condiciones mas sécas durante el siglo XX en la región Mediterránea de Europa, incluyendo la p
+
+En la Peninsula Iberica durante el siglo XX se ha observado una tendencia hacia condiciones mas secas [@
+Pascoa2017; 
+
+]
+
+
+
+
+
+En el sur de Europa, en particular en la región Mediterránea, se ha observado un incremento en la frecuencia de las sequías [@Hoerling2012]. 
+
+Varios trabajos han puesto de manifiesto el incremento en la frecuencia de las sequías para la región Mediterránea []
+--- 
+
+
+
+
+
+
+[@VicenteSerrano2014]
+S. M. Vicente-Serrano, J.-I. Lopez-Moreno, S. Beguería et al., “Evidence of increasing drought severity caused by temperature rise in southern Europe,” Environmental Research Letters, vol. 9, no. 4, Article ID 044001, 2014.
+
+
+
+
+
+
+
+
+
+
+@Pascoa2017: 
+https://www.hindawi.com/journals/amete/2017/4653126/#B24
+
+@Lionello2012
+P. Lionello, Ed., The Climate of the Mediterranean Region: From the Past to the Future, Elsevier, 2012.
+
+@Spinoni2015
+J. Spinoni, G. Naumann, J. Vogt, and P. Barbosa, “European drought climatologies and trends based on a multi-indicator approach,” Global and Planetary Change, vol. 127, pp. 50–57, 2015.
+
+@Coll2016
+J. Coll, E. Aguilar, and L. Ashcroft, “Drought variability and change across the Iberian Peninsula,” Theoretical and Applied Climatology, vol. 130, no. 3-4, pp. 901–916, 2016. 
+
+@Hoerling2012
+Hoerling,M., Eischeid, J., Perlwitz, J., Quan, X., Zhang, T., Pegion, P., 2012. On the increased
+frequency of Mediterranean drought. J. Clim. 25 (6), 2146–2161.
+
+@Lloyd2002
+B. Lloyd-Hughes and M. A. Saunders, “A drought climatology for Europe,” International Journal of Climatology, vol. 22, no. 13, pp. 1571–1592, 2002
+
+@Sousa2011 
+P. M. Sousa, R. M. Trigo, P. Aizpurua, R. Nieto, L. Gimeno, and R. Garcia-Herrera, “Trends and extremes of drought indices throughout the 20th century in the Mediterranean, Natural Hazards and Earth System Sciences, vol. 11, no. 1, pp. 33–51, 2011
+
+@Greve2014
+P. Greve, B. Orlowsky, B. Mueller, J. Sheffield, M. Reichstein, and S. I. Seneviratne, “Global assessment of trends in wetting and drying over land,” Nature Geoscience, vol. 7, no. 10, pp. 716–721, 2014
+
+@Mitchell2005
+T. D. Mitchell and P. D. Jones, “An improved method of constructing a database of monthly climate observations and associated high-resolution grids,” International Journal of Climatology, vol. 25, no. 6, pp. 693–712, 2005
 
 
 ```{r echo=FALSE, results='asis', eval=show_text}
